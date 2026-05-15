@@ -1,0 +1,25 @@
+# Django Settings
+SECRET_KEY="django-insecure-mjnxcdv@0j5zk+-)1$wlj4*9w1age&r((qgs%pf@f(l$)7+(#*"
+DEBUG=True
+DJANGO_LOGLEVEL=info
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
+
+# Database Settings (Individual Variables)
+DATABASE_ENGINE=postgresql
+DATABASE_NAME=smartwayzdb
+DATABASE_USERNAME=postgres
+DATABASE_PASSWORD=1303
+DATABASE_HOST=db
+DATABASE_PORT=5432
+
+# PostgreSQL Container Settings (for docker-compose.yml db service)
+POSTGRES_DB=smartwayzdb
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=1303
+POSTGRES_PORT=5432
+
+# Database URL (for entrypoint.sh - uses 'db' as host for Docker network)
+DATABASE_URL=postgresql://postgres:1303@db:5432/smartwayzdb
+
+# Port Configuration
+DJANGO_PORT=8000

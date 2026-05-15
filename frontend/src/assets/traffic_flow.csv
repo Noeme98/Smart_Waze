@@ -1,0 +1,197 @@
+timeFrom,timeTo,direction,day,motorcycle,tricycle,car,lightTruck,heavyTruck,total
+6,7,East to West (Straight),Friday,107,93,79,33,10,322
+6,7,East to West (Straight),Monday,97,87,108,27,2,286
+7,8,East to West (Straight),Friday,132,114,108,59,40,453
+7,8,East to West (Straight),Monday,128,113,99,49,21,415
+8,9,East to West (Straight),Friday,151,125,141,79,40,536
+8,9,East to West (Straight),Monday,142,123,82,78,30,456
+9,10,East to West (Straight),Friday,137,144,137,92,39,549
+9,10,East to West (Straight),Monday,113,135,99,78,26,451
+10,11,East to West (Straight),Friday,181,183,156,86,50,653
+10,11,East to West (Straight),Monday,133,153,126,87,27,527
+11,12,East to West (Straight),Friday,269,236,168,127,85,885
+11,12,East to West (Straight),Monday,231,193,155,122,76,777
+12,13,East to West (Straight),Friday,181,216,119,103,55,670
+12,13,East to West (Straight),Monday,186,152,115,100,25,578
+13,14,East to West (Straight),Friday,131,167,86,81,21,486
+13,14,East to West (Straight),Monday,144,126,80,78,16,444
+14,15,East to West (Straight),Friday,111,121,86,55,3,376
+14,15,East to West (Straight),Monday,101,112,75,51,10,349
+15,16,East to West (Straight),Friday,88,87,90,72,9,345
+15,16,East to West (Straight),Monday,108,102,61,73,13,350
+16,17,East to West (Straight),Friday,143,107,124,94,17,483
+16,17,East to West (Straight),Monday,142,100,111,93,42,488
+17,18,East to West (Straight),Friday,262,221,176,121,92,872
+17,18,East to West (Straight),Monday,210,190,153,117,74,744
+18,19,East to West (Straight),Friday,173,179,137,76,25,590
+18,19,East to West (Straight),Monday,171,164,97,75,36,540
+19,20,East to West (Straight),Friday,128,117,105,15,2,367
+19,20,East to West (Straight),Monday,117,140,50,23,4,334
+6,7,East to North (Right Turn to Castin N),Friday,98,87,58,40,22,308
+6,7,East to North (Right Turn to Castin N),Monday,94,74,44,28,10,250
+7,8,East to North (Right Turn to Castin N),Friday,151,127,78,59,59,474
+7,8,East to North (Right Turn to Castin N),Monday,128,119,58,42,53,390
+8,9,East to North (Right Turn to Castin N),Friday,139,119,84,76,61,479
+8,9,East to North (Right Turn to Castin N),Monday,125,114,79,65,25,408
+9,10,East to North (Right Turn to Castin N),Friday,152,97,90,68,62,469
+9,10,East to North (Right Turn to Castin N),Monday,137,95,91,63,45,431
+10,11,East to North (Right Turn to Castin N),Friday,136,119,78,61,46,440
+10,11,East to North (Right Turn to Castin N),Monday,126,122,90,58,32,428
+11,12,East to North (Right Turn to Castin N),Friday,188,148,110,90,62,598
+11,12,East to North (Right Turn to Castin N),Monday,173,144,108,81,54,560
+12,13,East to North (Right Turn to Castin N),Friday,168,117,96,70,19,470
+12,13,East to North (Right Turn to Castin N),Monday,143,104,89,61,10,407
+13,14,East to North (Right Turn to Castin N),Friday,143,97,80,57,38,415
+13,14,East to North (Right Turn to Castin N),Monday,131,88,78,45,15,357
+14,15,East to North (Right Turn to Castin N),Friday,115,88,66,46,38,353
+14,15,East to North (Right Turn to Castin N),Monday,104,85,60,40,26,315
+15,16,East to North (Right Turn to Castin N),Friday,117,87,84,33,39,360
+15,16,East to North (Right Turn to Castin N),Monday,113,79,73,28,21,312
+16,17,East to North (Right Turn to Castin N),Friday,145,108,91,39,31,414
+16,17,East to North (Right Turn to Castin N),Monday,137,99,85,32,22,375
+17,18,East to North (Right Turn to Castin N),Friday,237,150,126,90,84,687
+17,18,East to North (Right Turn to Castin N),Monday,206,142,118,82,78,626
+18,19,East to North (Right Turn to Castin N),Friday,164,96,74,42,23,399
+18,19,East to North (Right Turn to Castin N),Monday,166,89,69,37,16,377
+19,20,East to North (Right Turn to Castin N),Friday,125,49,66,14,7,261
+19,20,East to North (Right Turn to Castin N),Monday,119,39,14,6,2,180
+6,7,East to South (Left Turn to Castin S),Friday,98,93,43,17,4,255
+6,7,East to South (Left Turn to Castin S),Monday,98,82,41,6,1,228
+7,8,East to South (Left Turn to Castin S),Friday,106,102,78,21,5,312
+7,8,East to South (Left Turn to Castin S),Monday,106,98,70,19,5,298
+8,9,East to South (Left Turn to Castin S),Friday,143,114,91,52,6,406
+8,9,East to South (Left Turn to Castin S),Monday,131,117,63,19,5,335
+9,10,East to South (Left Turn to Castin S),Friday,147,125,91,56,6,425
+9,10,East to South (Left Turn to Castin S),Monday,135,118,67,53,2,375
+10,11,East to South (Left Turn to Castin S),Friday,136,112,85,51,6,406
+10,11,East to South (Left Turn to Castin S),Monday,133,112,50,5,8,389
+11,12,East to South (Left Turn to Castin S),Friday,191,156,117,77,23,562
+11,12,East to South (Left Turn to Castin S),Monday,171,138,121,76,23,529
+12,13,East to South (Left Turn to Castin S),Friday,153,137,100,43,8,441
+12,13,East to South (Left Turn to Castin S),Monday,144,97,93,53,7,395
+13,14,East to South (Left Turn to Castin S),Friday,120,112,83,17,5,337
+13,14,East to South (Left Turn to Castin S),Monday,112,72,68,23,2,277
+14,15,East to South (Left Turn to Castin S),Friday,108,106,59,22,5,300
+14,15,East to South (Left Turn to Castin S),Monday,106,107,66,5,0,284
+15,16,East to South (Left Turn to Castin S),Friday,93,113,44,8,4,262
+15,16,East to South (Left Turn to Castin S),Monday,88,98,75,12,6,279
+16,17,East to South (Left Turn to Castin S),Friday,115,107,66,22,3,313
+16,17,East to South (Left Turn to Castin S),Monday,130,108,91,33,7,369
+17,18,East to South (Left Turn to Castin S),Friday,155,154,111,75,20,515
+17,18,East to South (Left Turn to Castin S),Monday,178,137,117,80,24,536
+18,19,East to South (Left Turn to Castin S),Friday,112,108,80,52,5,357
+18,19,East to South (Left Turn to Castin S),Monday,132,108,81,43,3,367
+19,20,East to South (Left Turn to Castin S),Friday,113,117,38,23,1,292
+19,20,East to South (Left Turn to Castin S),Monday,106,111,48,13,2,280
+6,7,North to South (Straight),Friday,120,94,63,10,6,293
+6,7,North to South (Straight),Monday,119,83,45,8,3,234
+7,8,North to South (Straight),Friday,150,109,72,13,18,362
+7,8,North to South (Straight),Monday,145,97,55,16,8,321
+8,9,North to South (Straight),Friday,149,111,54,39,19,372
+8,9,North to South (Straight),Monday,143,101,39,14,16,313
+9,10,North to South (Straight),Friday,145,118,46,48,18,375
+9,10,North to South (Straight),Monday,137,84,39,39,15,314
+10,11,North to South (Straight),Friday,184,138,50,55,24,451
+10,11,North to South (Straight),Monday,176,106,55,49,5,392
+11,12,North to South (Straight),Friday,238,185,87,108,56,674
+11,12,North to South (Straight),Monday,229,165,83,69,44,590
+12,13,North to South (Straight),Friday,194,149,63,65,26,498
+12,13,North to South (Straight),Monday,167,126,48,44,23,415
+13,14,North to South (Straight),Friday,170,138,50,28,24,413
+13,14,North to South (Straight),Monday,151,121,29,20,4,324
+14,15,North to South (Straight),Friday,148,130,35,16,12,341
+14,15,North to South (Straight),Monday,119,97,36,19,10,281
+15,16,North to South (Straight),Friday,137,102,50,48,9,346
+15,16,North to South (Straight),Monday,104,113,52,25,26,320
+16,17,North to South (Straight),Friday,170,145,79,57,16,486
+16,17,North to South (Straight),Monday,95,125,56,41,22,349
+17,18,North to South (Straight),Friday,236,235,168,105,58,802
+17,18,North to South (Straight),Monday,197,269,85,87,52,590
+18,19,North to South (Straight),Friday,184,162,101,82,35,564
+18,19,North to South (Straight),Monday,153,116,56,53,24,402
+19,20,North to South (Straight),Friday,180,86,65,39,18,388
+19,20,North to South (Straight),Monday,142,95,41,32,12,321
+6,7,North to West (Right Turn to Vicentillo W),Friday,268,210,122,60,22,696
+6,7,North to West (Right Turn to Vicentillo W),Monday,251,178,104,28,10,617
+7,8,North to West (Right Turn to Vicentillo W),Friday,427,347,249,59,59,1226
+7,8,North to West (Right Turn to Vicentillo W),Monday,399,367,230,42,43,1168
+8,9,North to West (Right Turn to Vicentillo W),Friday,333,295,184,76,61,1055
+8,9,North to West (Right Turn to Vicentillo W),Monday,312,322,145,65,250,987
+9,10,North to West (Right Turn to Vicentillo W),Friday,269,204,165,68,62,843
+9,10,North to West (Right Turn to Vicentillo W),Monday,248,273,136,63,45,835
+10,11,North to West (Right Turn to Vicentillo W),Friday,306,215,188,61,46,964
+10,11,North to West (Right Turn to Vicentillo W),Monday,281,227,169,58,32,899
+11,12,North to West (Right Turn to Vicentillo W),Friday,458,339,260,90,62,1343
+11,12,North to West (Right Turn to Vicentillo W),Monday,435,387,224,81,54,1372
+12,13,North to West (Right Turn to Vicentillo W),Friday,339,313,157,70,19,1067
+12,13,North to West (Right Turn to Vicentillo W),Monday,321,361,136,61,10,1038
+13,14,North to West (Right Turn to Vicentillo W),Friday,239,184,107,57,38,695
+13,14,North to West (Right Turn to Vicentillo W),Monday,222,165,89,45,15,631
+14,15,North to West (Right Turn to Vicentillo W),Friday,167,136,66,46,38,521
+14,15,North to West (Right Turn to Vicentillo W),Monday,142,110,60,40,26,464
+15,16,North to West (Right Turn to Vicentillo W),Friday,183,87,84,33,39,481
+15,16,North to West (Right Turn to Vicentillo W),Monday,136,79,73,26,21,409
+16,17,North to West (Right Turn to Vicentillo W),Friday,160,108,91,39,31,541
+16,17,North to West (Right Turn to Vicentillo W),Monday,141,99,85,32,22,486
+17,18,North to West (Right Turn to Vicentillo W),Friday,508,150,126,90,84,1252
+17,18,North to West (Right Turn to Vicentillo W),Monday,474,142,118,82,71,1127
+18,19,North to West (Right Turn to Vicentillo W),Friday,337,96,74,42,23,839
+18,19,North to West (Right Turn to Vicentillo W),Monday,298,89,69,37,16,663
+19,20,North to West (Right Turn to Vicentillo W),Friday,180,49,66,14,7,263
+19,20,North to West (Right Turn to Vicentillo W),Monday,188,49,142,6,2,251
+6,7,South to North (Straight),Friday,103,60,36,39,5,243
+6,7,South to North (Straight),Monday,112,73,36,35,5,265
+7,8,South to North (Straight),Friday,136,110,64,47,11,369
+7,8,South to North (Straight),Monday,116,86,55,50,3,310
+8,9,South to North (Straight),Friday,155,108,60,41,2,366
+8,9,South to North (Straight),Monday,138,115,69,49,6,377
+9,10,South to North (Straight),Friday,140,105,81,42,7,375
+9,10,South to North (Straight),Monday,150,97,66,33,9,355
+10,11,South to North (Straight),Friday,117,129,64,46,11,367
+10,11,South to North (Straight),Monday,149,102,66,42,8,367
+11,12,South to North (Straight),Friday,227,169,90,77,24,587
+11,12,South to North (Straight),Monday,198,150,93,77,22,540
+12,13,South to North (Straight),Friday,174,149,61,44,6,434
+12,13,South to North (Straight),Monday,135,129,57,45,6,372
+13,14,South to North (Straight),Friday,172,122,73,34,3,404
+13,14,South to North (Straight),Monday,138,113,46,13,1,312
+14,15,South to North (Straight),Friday,156,134,72,19,6,388
+14,15,South to North (Straight),Monday,143,127,63,19,6,358
+15,16,South to North (Straight),Friday,172,123,73,16,2,386
+15,16,South to North (Straight),Monday,133,127,65,40,4,369
+16,17,South to North (Straight),Friday,194,144,64,39,5,446
+16,17,South to North (Straight),Monday,141,124,54,47,8,374
+17,18,South to North (Straight),Friday,239,178,95,77,21,610
+17,18,South to North (Straight),Monday,192,177,84,70,22,545
+18,19,South to North (Straight),Friday,176,131,60,51,4,422
+18,19,South to North (Straight),Monday,151,143,67,17,2,380
+19,20,South to North (Straight),Friday,171,93,53,14,1,332
+19,20,South to North (Straight),Monday,134,102,38,6,1,281
+6,7,South to West (Left Turn to Vicentillo W),Friday,91,71,11,1,1,175
+6,7,South to West (Left Turn to Vicentillo W),Monday,78,42,6,2,1,129
+7,8,South to West (Left Turn to Vicentillo W),Friday,123,103,25,2,7,260
+7,8,South to West (Left Turn to Vicentillo W),Monday,122,63,2,3,1,210
+8,9,South to West (Left Turn to Vicentillo W),Friday,119,100,16,6,4,245
+8,9,South to West (Left Turn to Vicentillo W),Monday,138,89,18,6,3,254
+9,10,South to West (Left Turn to Vicentillo W),Friday,97,103,34,1,4,239
+9,10,South to West (Left Turn to Vicentillo W),Monday,103,95,30,4,4,236
+10,11,South to West (Left Turn to Vicentillo W),Friday,119,93,33,5,4,254
+10,11,South to West (Left Turn to Vicentillo W),Monday,119,92,21,1,3,236
+11,12,South to West (Left Turn to Vicentillo W),Friday,150,132,53,32,8,375
+11,12,South to West (Left Turn to Vicentillo W),Monday,164,127,44,34,13,382
+12,13,South to West (Left Turn to Vicentillo W),Friday,124,113,30,12,7,286
+12,13,South to West (Left Turn to Vicentillo W),Monday,118,89,27,13,7,254
+13,14,South to West (Left Turn to Vicentillo W),Friday,111,98,33,7,6,255
+13,14,South to West (Left Turn to Vicentillo W),Monday,95,79,7,2,1,202
+14,15,South to West (Left Turn to Vicentillo W),Friday,109,98,23,7,5,242
+14,15,South to West (Left Turn to Vicentillo W),Monday,126,76,23,7,2,235
+15,16,South to West (Left Turn to Vicentillo W),Friday,109,111,32,3,4,250
+15,16,South to West (Left Turn to Vicentillo W),Monday,95,73,26,3,6,203
+16,17,South to West (Left Turn to Vicentillo W),Friday,128,95,19,2,6,253
+16,17,South to West (Left Turn to Vicentillo W),Monday,111,106,33,5,4,259
+17,18,South to West (Left Turn to Vicentillo W),Friday,191,130,63,27,10,421
+17,18,South to West (Left Turn to Vicentillo W),Monday,164,127,44,31,16,382
+18,19,South to West (Left Turn to Vicentillo W),Friday,96,97,51,8,3,255
+18,19,South to West (Left Turn to Vicentillo W),Monday,111,101,24,7,3,246
+19,20,South to West (Left Turn to Vicentillo W),Friday,54,32,24,9,4,123
+19,20,South to West (Left Turn to Vicentillo W),Monday,65,37,23,1,2,128
