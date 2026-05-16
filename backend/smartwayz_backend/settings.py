@@ -232,7 +232,10 @@ _env_cors = (
 # Defaults (Vercel + local) plus comma-separated CORS_ALLOWED_ORIGINS from the environment.
 CORS_ALLOWED_ORIGINS = list(dict.fromkeys(_default_cors_origins + _env_cors))
 
-CORS_ALLOW_CREDENTIALS = True
+# Temporary: allow all origins to confirm CORS is the only issue. Remove after debugging.
+# django-cors-headers forbids CORS_ALLOW_ALL_ORIGINS with CORS_ALLOW_CREDENTIALS=True.
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = False
 
 # Email Configuration
 EMAIL_BACKEND = os.environ.get(
