@@ -41,7 +41,7 @@ def get_tokens_for_user(user_id, user_type, email, name=None):
     }
 
 
-@api_view(['POST'])
+@api_view(['POST', 'OPTIONS'])
 @permission_classes([AllowAny])
 def login_citizen(request):
     """
@@ -50,6 +50,9 @@ def login_citizen(request):
     POST /api/auth/login/citizen/
     Body: {"email": "user@example.com", "password": "password123"}
     """
+    if request.method == "OPTIONS":
+        return Response(status=status.HTTP_200_OK)
+
     email = request.data.get('email')
     password = request.data.get('password')
     
@@ -99,7 +102,7 @@ def login_citizen(request):
         }, status=status.HTTP_401_UNAUTHORIZED)
 
 
-@api_view(['POST'])
+@api_view(['POST', 'OPTIONS'])
 @permission_classes([AllowAny])
 def login_authority(request):
     """
@@ -108,6 +111,9 @@ def login_authority(request):
     POST /api/auth/login/authority/
     Body: {"email": "authority@example.com", "password": "password123"}
     """
+    if request.method == "OPTIONS":
+        return Response(status=status.HTTP_200_OK)
+
     email = request.data.get('email')
     password = request.data.get('password')
 
@@ -157,7 +163,7 @@ def login_authority(request):
         }, status=status.HTTP_401_UNAUTHORIZED)
 
 
-@api_view(['POST'])
+@api_view(['POST', 'OPTIONS'])
 @permission_classes([AllowAny])
 def login_system_admin(request):
     """
@@ -166,6 +172,9 @@ def login_system_admin(request):
     POST /api/auth/login/admin/
     Body: {"email": "admin@smartwayz.local", "password": "..."}
     """
+    if request.method == "OPTIONS":
+        return Response(status=status.HTTP_200_OK)
+
     email = request.data.get('email')
     password = request.data.get('password')
 
@@ -212,7 +221,7 @@ def login_system_admin(request):
         }, status=status.HTTP_401_UNAUTHORIZED)
 
 
-@api_view(['POST'])
+@api_view(['POST', 'OPTIONS'])
 @permission_classes([AllowAny])
 def refresh_token(request):
     """
@@ -221,6 +230,9 @@ def refresh_token(request):
     POST /api/auth/refresh/
     Body: {"refresh": "refresh_token_here"}
     """
+    if request.method == "OPTIONS":
+        return Response(status=status.HTTP_200_OK)
+
     refresh_token = request.data.get('refresh')
     
     if not refresh_token:
@@ -262,7 +274,7 @@ def refresh_token(request):
         }, status=status.HTTP_401_UNAUTHORIZED)
 
 
-@api_view(['POST'])
+@api_view(['POST', 'OPTIONS'])
 @permission_classes([AllowAny])
 def logout(request):
     """
@@ -271,6 +283,9 @@ def logout(request):
     POST /api/auth/logout/
     Body: {"refresh": "refresh_token_here"}
     """
+    if request.method == "OPTIONS":
+        return Response(status=status.HTTP_200_OK)
+
     refresh_token = request.data.get('refresh')
     
     if not refresh_token:

@@ -30,6 +30,10 @@ class JWTAccessAuthentication(BaseAuthentication):
     keyword = b"Bearer"
 
     def authenticate(self, request):
+        # CORS preflight must not run JWT validation.
+        if request.method == "OPTIONS":
+            return None
+
         auth = request.META.get("HTTP_AUTHORIZATION", "")
         if not auth or not auth.startswith("Bearer "):
             return None
