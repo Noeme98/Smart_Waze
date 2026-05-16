@@ -51,6 +51,6 @@
     # Use entrypoint script
     ENTRYPOINT ["/app/entrypoint.sh"]
 
-    # Start the application using Gunicorn
-    CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "4", "--threads", "2", "smartwayz_backend.wsgi:application"]
+    # Railway (and some hosts) set PORT; local Docker Compose can omit it (defaults to 8000).
+    CMD ["sh", "-c", "exec gunicorn --bind 0.0.0.0:${PORT:-8000} --workers 4 --threads 2 smartwayz_backend.wsgi:application"]
 

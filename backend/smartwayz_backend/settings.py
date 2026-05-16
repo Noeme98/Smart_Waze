@@ -27,10 +27,15 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG", "0").lower() in ("1", "true", "yes", "on")
 
 
-	
-# 'DJANGO_ALLOWED_HOSTS' should be a single string of hosts with a space between each.
-# For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
-ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "127.0.0.1 localhost").split()
+# Hostnames the site can serve; tutorial defaults + optional DJANGO_ALLOWED_HOSTS.
+_default_allowed_hosts = [
+    "smartwaze-production.up.railway.app",
+    "localhost",
+    "127.0.0.1",
+]
+_raw_hosts = os.environ.get("DJANGO_ALLOWED_HOSTS", "").strip()
+_extra_hosts = [h.strip() for h in _raw_hosts.replace(",", " ").split() if h.strip()] if _raw_hosts else []
+ALLOWED_HOSTS = list(dict.fromkeys(_default_allowed_hosts + _extra_hosts))
 
 
 
@@ -211,17 +216,21 @@ SIMPLE_JWT = {
 }
 
 # CORS Configuration
+_default_cors_origins = [
+    "https://smart-waze-seven.vercel.app",
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:5173",
+]
 _cors_origins_from_env = os.environ.get("CORS_ALLOWED_ORIGINS", "").strip()
-if _cors_origins_from_env:
-    # Supports comma-separated values for deployment platforms.
-    CORS_ALLOWED_ORIGINS = [origin.strip() for origin in _cors_origins_from_env.split(",") if origin.strip()]
-else:
-    CORS_ALLOWED_ORIGINS = [
-        "http://localhost:3000",
-        "http://localhost:5173",
-        "http://127.0.0.1:3000",
-        "http://127.0.0.1:5173",
-    ]
+_env_cors = (
+    [origin.strip() for origin in _cors_origins_from_env.split(",") if origin.strip()]
+    if _cors_origins_from_env
+    else []
+)
+# Defaults (Vercel + local) plus comma-separated CORS_ALLOWED_ORIGINS from the environment.
+CORS_ALLOWED_ORIGINS = list(dict.fromkeys(_default_cors_origins + _env_cors))
 
 CORS_ALLOW_CREDENTIALS = True
 
