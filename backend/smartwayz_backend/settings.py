@@ -216,31 +216,36 @@ SIMPLE_JWT = {
 }
 
 # CORS Configuration
-_default_cors_origins = [
+CORS_ALLOWED_ORIGINS = [
     "https://smart-waze-seven.vercel.app",
     "http://localhost:3000",
     "http://localhost:5173",
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
 ]
-_cors_origins_from_env = os.environ.get("CORS_ALLOWED_ORIGINS", "").strip()
-_env_cors = (
-    [origin.strip() for origin in _cors_origins_from_env.split(",") if origin.strip()]
-    if _cors_origins_from_env
-    else []
-)
-# Defaults (Vercel + local) plus comma-separated CORS_ALLOWED_ORIGINS from the environment.
-CORS_ALLOWED_ORIGINS = list(dict.fromkeys(_default_cors_origins + _env_cors))
 
-# Temporary: allow all origins to confirm CORS is the only issue. Remove after debugging.
-# django-cors-headers forbids CORS_ALLOW_ALL_ORIGINS with CORS_ALLOW_CREDENTIALS=True.
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = False
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOW_HEADERS = [
+    "accept",
+    "accept-encoding",
+    "authorization",
+    "content-type",
+    "dnt",
+    "origin",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://smart-waze-seven.vercel.app",
+]
 
 # Email Configuration
 EMAIL_BACKEND = os.environ.get(
     'EMAIL_BACKEND',
-    'django.core.mail.backends.console.EmailBackend'  # Development: prints to console
+    'django.core.mail.backends.console.EmailBackend'
 )
 EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
 EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 587))
